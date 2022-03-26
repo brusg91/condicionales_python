@@ -17,12 +17,26 @@ texto_2 = '7'
 # se utiliza el operador mayor o menor con Strings (textos)
 # Imprima en pantalla según corresponda
 
+if str(texto_1) > str(texto_2):
+    print(texto_1,'es mayor que',texto_2,'alfabeticamente')
+else:
+    print(texto_2,'es mayor que', texto_1,'alfabeticamente')
+
 # 2-Transforma esas variables tipo texto en variables numéricas con (int)
 # y almacénalas en nuevas variables.
+
+texto_1_int=int(texto_1)
+texto_2_int=int(texto_2)
+
 # Compare las nuevas variables para ver cual es mayor o menor
 # utilizando los operadores correspondientes
 # ¿Cuál de las nuevas variables es mayor?
 # Imprima en pantalla según corresponda
+
+if texto_1_int > texto_2_int:
+    print(texto_1_int,'es mayor que',texto_2_int,'numericamente')
+else:
+    print(texto_2_int,'es mayor que', texto_1_int,'numericamente')
 
 # Para pensar!
 # ¿Por qué cree que texto_2 es mayor a texto_1?
@@ -32,3 +46,5 @@ texto_2 = '7'
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+#puede ser que lo lee alfabeticamente igual? en el orden de los numeros? 0 1 2 3 4 aunque sea texto 
